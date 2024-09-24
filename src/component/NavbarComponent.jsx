@@ -34,7 +34,7 @@ const NavbarComponent = () => {
   return (
     <>
       <Navbar
-        expand="lg"
+        expand={{ lg: true }}
         className="bg-body-tertiary d-flex align-center"
         style={{ boxShadow: "0 0 1px" }}
       >
@@ -61,6 +61,7 @@ const NavbarComponent = () => {
               <Col>
                 <Dropdown>
                   <Dropdown.Toggle
+                    className="dropdown-toggle-responsive"
                     style={{
                       background: "transparent",
                       border: "none",

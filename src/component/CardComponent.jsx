@@ -110,11 +110,6 @@ function CardComponent(props) {
             <Card.Footer
               style={{ cursor: "pointer" }}
               onClick={() => {
-                // {
-                //   post.comments_count === 0
-                //     ? dispatch(setPostId(null))
-                //     : dispatch(setPostId(post.id));
-                // }
                 dispatch(setPostId(post.id));
                 dispatch(openModal("comment"));
               }}
