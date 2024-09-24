@@ -1,0 +1,72 @@
+.mx-10 {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.w50 {
+  width: 50px;
+}
+.hr {
+  margin: 6px;
+}
+.w-h-40 {
+  width: 40px;
+  height: 40px;
+}
+.cardComponent {
+  border-radius: 20px;
+}
+
+.cardComponent:hover {
+  border-radius: 0%;
+}
+
+.addPost {
+  position: fixed;
+  bottom: 60px;
+  z-index: 999;
+  right: 60px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  font-size: 20px;
+  /* color: red; */
+}
+.alert {
+  position: absolute;
+  z-index: 9999;
+  bottom: 20px;
+  right: 30px;
+}
+.toast {
+  position: absolute;
+  z-index: 9999;
+  bottom: 20px;
+  right: 30px;
+}
+.userFirstStyle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 30px;
+  padding: 0.25rem;
+  background-color: var(--bs-body-bg);
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  max-width: 100%;
+}
+.border-b-1 {
+  margin-bottom: 10px;
+}
+
+.comment-text {
+  background: #dee2e6;
+  padding: 7px 15px;
+  border-radius: 12px;
+}
